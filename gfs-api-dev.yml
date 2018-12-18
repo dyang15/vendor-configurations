@@ -1,0 +1,5 @@
+profileMessage: This is our GFS DEVELOPMENT environment
+
+vendorConfigurations:
+    - vendorId: 393
+    - vendorType: API
