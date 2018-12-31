@@ -1,7 +1,7 @@
 profileMessage: This is our DEVELOPMENT environment
 
 
-vendorProperties:
+vendor:
  - 393-vendorName: Hilton
  - 393-operationType: REALTIME
  - 494-vendorName: Accor
