@@ -1,8 +1,10 @@
 profileMessage: This is our DEVELOPMENT environment
 
-393-vendorName: Hilton
-393-operationType: REALTIME
-494-vendorName: Accor
-494-operationType: BATCH
-595-vendorName: Carlson
-595-operationType: REALTIME
+
+vendorProperties:
+ - 393-vendorName: Hilton
+ - 393-operationType: REALTIME
+ - 494-vendorName: Accor
+ - 494-operationType: BATCH
+ - 595-vendorName: Carlson
+ - 595-operationType: REALTIME
