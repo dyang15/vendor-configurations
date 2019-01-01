@@ -4,3 +4,5 @@ profileMessage: This is our DEVELOPMENT environment
 393-operationType: REALTIME
 494-vendorName: Accor
 494-operationType: BATCH
+585-vendorName: United
+585-operationType: REALTIME
