@@ -1,8 +1,6 @@
 profileMessage: This is our DEVELOPMENT environment
 
-393-vendorName: Hilton
-393-operationType: REALTIME
-494-vendorName: Accor
-494-operationType: BATCH
-585-vendorName: United
-585-operationType: REALTIME
+ufs.rt.url: http://localhost:8080/fulfillment/realtime/
+ufs.
+
+http://localhost:8888
