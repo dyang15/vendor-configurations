@@ -1,6 +1,7 @@
 profileMessage: This is our LOCAL environment
 
 ufs.rt.url: http://localhost:8080/fulfillment/realtime/
+ufs.notifier.url: http://localhost:8080/sendNotificationRequest/
 
 1131-vendorName: Alaska
 1131-operationType: REALTIME
