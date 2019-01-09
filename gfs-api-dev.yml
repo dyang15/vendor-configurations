@@ -1,6 +1,6 @@
 profileMessage: This is our LOCAL environment
 
-ufs.rtp.url: http://localhost:8080/fulfillment
+ufs.rtp.url: http://localhost:8080/fulfillments
 ufs.notifier.url: http://localhost:8080/sendNotificationRequest
 
 1131-vendorName: Alaska
