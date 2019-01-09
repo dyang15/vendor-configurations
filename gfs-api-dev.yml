@@ -1,4 +1,4 @@
-profileMessage: This is our LOCAL environment
+profileMessage: This is our DEV environment
 
 ufs.rtp.url: http://localhost:8080/fulfillment
 ufs.notifier.url: http://localhost:8080/sendNotificationRequest
