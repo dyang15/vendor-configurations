@@ -1,6 +1,6 @@
 profileMessage: This is our LOCAL environment
 
-ufs.rtp.url: http://localhost:8080/fulfillments
+ufs.rtp.url: http://localhost:8080/fulfillment
 ufs.notifier.url: http://localhost:8080/sendNotificationRequest
 
 1131-vendorName: Alaska
@@ -9,5 +9,5 @@ ufs.notifier.url: http://localhost:8080/sendNotificationRequest
 393-vendorName: Hilton
 393-operationType: BATCH
 
-500-vendorName: United
-500-operationType: BATCH
+400-vendorName: United
+400-operationType: BATCH
