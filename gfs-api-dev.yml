@@ -5,3 +5,6 @@ ufs.notifier.url: http://localhost:8080/sendNotificationRequest
 
 1131-vendorName: Alaska
 1131-operationType: REALTIME
+
+393-vendName: Hilton
+393-operationType: BATCH
