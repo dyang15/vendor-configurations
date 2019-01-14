@@ -1,7 +1,19 @@
 profileMessage: This is our LOCAL environment
 
 ufs.rtp.url: http://localhost:8080/fulfillment
-ufs.notifier.url: http://localhost:8080/sendNotificationRequest
+ufs.notifier.url: http://localhost:8080/
 
 1131-vendorName: Alaska
-1131-operationType: REALTIME
+1131-operationType: Realtime
+1131-vendorValidations: accountNumber,firstName,lastName,transactionType,partnerName,productDescription,amount
+1131-acceptFulfillmentRequests: 1
+1131-allowFulfillmentProcessing: 1
+
+
+
+1821-vendorName: United
+1821-operationType: Realtime
+1821-vendorValidations: amount,authToken,offerCode
+1821-acceptFulfillmentRequests: 1
+1821-allowFulfillmentProcessing: 1
+
