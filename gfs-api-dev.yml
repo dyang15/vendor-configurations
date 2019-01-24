@@ -3,11 +3,15 @@ profileMessage: This is our DEV environment
 ufs.rtp.url: http://localhost:8080/fulfillment
 ufs.notifier.url: http://localhost:8080/
 
+
+globalAllowFulfillmentRequests: 1
+globalAllowFulfillmentProcessing: 1
+
 1131-vendorName: Alaska
 1131-operationType: realtime
 1131-vendorValidations: accountNumber,firstName,lastName,transactionType,partnerName,productDescription,amount
 1131-acceptFulfillmentRequests: 1
-1131-allowFulfillmentProcessing: 1
+1131-processValidations: accountNumber,firstName,lastName,transactionType,partnerName,productDescription,amount,requestId
 
 
 
@@ -15,5 +19,4 @@ ufs.notifier.url: http://localhost:8080/
 1821-operationType: realtime
 1821-vendorValidations: amount,authToken,offerCode
 1821-acceptFulfillmentRequests: 1
-1821-allowFulfillmentProcessing: 1
- 
+1821-processValidations: transactionId,amount,authToken,offerCode
