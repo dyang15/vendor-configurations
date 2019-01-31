@@ -1,8 +1,8 @@
 profileMessage: This is our LOCAL environment
 
 ufs.rtp.url: http://localhost:8080/fulfillment
-ufs.notifier.url: http://localhost:8080/
-
+ufs.notifier.url: http://localhost:8080
+ufs.api.createfulfillment.retry.url: http://localhost:8080/lamdba
 
 globalAllowFulfillmentRequests: 1
 globalAllowFulfillmentProcessing: 1

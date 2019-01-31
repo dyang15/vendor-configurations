@@ -1,7 +1,8 @@
 profileMessage: This is our DEV environment
 
 ufs.rtp.url: http://localhost:8080/fulfillment
-ufs.notifier.url: http://localhost:8080/
+ufs.notifier.url: http://localhost:8080
+ufs.api.createfulfillment.retry.url: http://localhost:8080/lamdba
 
 
 globalAllowFulfillmentRequests: 1
@@ -22,3 +23,15 @@ globalAllowFulfillmentProcessing: 1
 1821-acceptFulfillmentRequests: 1
 1821-allowFulfillmentProcessing: 1
 1821-processValidations: transactionId,amount,authToken,offerCode
+
+
+493-VendorName: Accor
+493-processValidations: recordType,accountNumber,fulfilledDate,amount,firstName,lastName,redemptionId,productDescription
+493-delimiter: '|'
+493-processedDateFormat: yyyyMMddHHmmss
+493-headerFormat: H|$fulfilledDate$|$sequenceNumber$
+493-headerDateFormat: yyyyMMddHHmmss
+493-sequenceNumber: 1
+493-footerFormat: $totalRecordCount$|FOOTER_RECORD_TYPE
+493-fileNameFormat: SSI_ACCOR_Transfer_$fulfilledDate$_$sequenceNumber$.txt
+493-fileDateFormat: yyyyMMdd_HHmmss
